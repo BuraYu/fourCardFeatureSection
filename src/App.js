@@ -1,9 +1,12 @@
 import "./App.css";
+import Hero from "./components/hero-section/Hero";
+import CardSection from "./components/cardSection/cardSection";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Hero />
+      <CardSection />
     </div>
   );
 }
