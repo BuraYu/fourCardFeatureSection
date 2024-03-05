@@ -29,7 +29,7 @@
   margin-top: auto;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 750px) {
   .card {
     width: 311px;
     height: 222px;
