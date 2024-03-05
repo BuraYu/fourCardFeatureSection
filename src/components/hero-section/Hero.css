@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  color: #4d4f62;
 }
 
 .title {
@@ -18,4 +18,22 @@
 
 .motto {
   text-align: center;
+}
+
+span {
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: 0.25px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  line-height: 25px;
 }
