@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: #fafafa;
 }
 
 .App {
@@ -14,4 +13,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
+  background-color: #fafafa;
 }
+
+/*1150*/
