@@ -4,10 +4,13 @@ import Card from "../cards/Card";
 
 const cardSection = () => {
   return (
-    <div>
+    <div className="card-container">
       <Card />
-      <Card />
-      <Card />
+      <div className="mid-cards">
+        <Card />
+        <Card />
+      </div>
+
       <Card />
     </div>
   );

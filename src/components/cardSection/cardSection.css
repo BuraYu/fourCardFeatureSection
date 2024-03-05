@@ -1,0 +1,15 @@
+.card-container {
+  width: 1110px;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+
+.mid-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
