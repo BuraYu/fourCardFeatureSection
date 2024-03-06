@@ -27,7 +27,7 @@ const cardSection = () => {
       color: "#FCAE4A",
     },
     {
-      title: "Superviser",
+      title: "Supervisor",
       text: "Monitors activity to identify project roadblocks",
       logo: supervisorSvg,
       color: "#00C8C8",
@@ -37,33 +37,32 @@ const cardSection = () => {
   return (
     <div className="card-container">
       <Card
-        div="div1"
+        div="div4"
         title={data[3].title}
         description={data[3].text}
         logo={data[3].logo}
         color={data[3].color}
       />
       <Card
-        div="div2"
-        title={data[0].title}
-        description={data[0].text}
-        logo={data[0].logo}
-        color={data[0].color}
-      />
-      <Card
         div="div3"
-        title={data[2].title}
-        description={data[2].text}
-        logo={data[2].logo}
-        color={data[2].color}
-      />
-
-      <Card
-        div="div4"
         title={data[1].title}
         description={data[1].text}
         logo={data[1].logo}
         color={data[1].color}
+      />
+      <Card
+        div="div2"
+        title={data[2].title}
+        description={data[2].text}
+        logo={data[2].logo}
+        color={data[2].color}
+      />{" "}
+      <Card
+        div="div1"
+        title={data[0].title}
+        description={data[0].text}
+        logo={data[0].logo}
+        color={data[0].color}
       />
     </div>
   );
